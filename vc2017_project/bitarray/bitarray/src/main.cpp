@@ -1,21 +1,16 @@
-#include <iostream>
 #include "bitarray.h"
 
 int main()
 {
-	bitarray reileen(30);
+	//create:
+	bitarray kawahara(42); //array has 42 booleans
 
-	for (size_t i = 0; i < 30; i++)
-	{
-		reileen.set(i, 1);
-	}
+	//set and get:
+	kawahara.set(21, true); //set entry 21 to true
+	kawahara.get(21); //get value from entry 21
+	kawahara.setall(false); //set all entries to false
 
-	for (size_t i = 0; i < 30; i++)
-	{
-		std::cout << reileen.get(i);
-	}
-
-	std::cout << reileen.size_byte();
-
-	system("pause");
+	//size:
+	kawahara.size(); //returns the array size
+	kawahara.size_byte(); //returns allocated bytes for array (including overhead)
 }
