@@ -1,7 +1,6 @@
 # bitarray
 
 ### about
-It is simple
 One boolean (true or false) takes one bit of memory, not a byte like a normal bool array
 
 ### usage
