@@ -1,7 +1,7 @@
 # bitarray
 
 ### about
-One boolean (true or false) takes one bit of memory, not a byte like a normal bool array
+One boolean (true or false) takes one bit of memory, not a byte like a normal bool array.
 
 ### usage
 
@@ -12,6 +12,7 @@ bitarray kawahara(42); //array has 42 booleans
 //set and get:
 kawahara.set(21, true); //set entry 21 to true
 kawahra.get(21); //get value from entry 21
+kawahara.setall(false); //set all entries to false
 
 //size:
 kawahara.size(); //returns the array size
