@@ -12,6 +12,9 @@ public:
 	bitarray(size_t size);
 	~bitarray();
 	
+	bitarray(const bitarray&) = delete;
+	bitarray& operator= (const bitarray&) = delete;
+
 	bool get(size_t index);
 
 	void setall(bool state);
