@@ -22,7 +22,7 @@ kawahara.size_byte(); //returns allocated bytes for array (including overhead)
 ---
 
 ## Questions & Feedback
-Direct your questions to: simon.huber17@gmail.com
+Direct your questions to: dev@simonhuber.org
 
 ---
 
