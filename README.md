@@ -21,10 +21,5 @@ kawahara.size_byte(); //returns allocated bytes for array (including overhead)
 
 ---
 
-## Questions & Feedback
-Direct your questions to: dev@simonhuber.org
-
----
-
 ## License & Copyright
 This Project is licensed under the [MIT License](LICENSE).
